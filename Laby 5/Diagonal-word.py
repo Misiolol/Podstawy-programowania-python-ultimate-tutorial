@@ -6,4 +6,4 @@ for _ in range(n):
 
 
 for i in range(n):
-    print(arr[i][i], end='')
+    print(arr[i][i], end='')    
