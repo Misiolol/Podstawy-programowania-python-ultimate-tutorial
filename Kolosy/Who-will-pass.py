@@ -27,5 +27,6 @@ def main():
 
     print(solution_array)
     print(matrix)
+    
 
 main()
