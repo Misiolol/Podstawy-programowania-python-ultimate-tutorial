@@ -1,3 +1,5 @@
+import copy 
+
 n,m = map(int, input().split())
 
 matrix = []
@@ -5,8 +7,9 @@ output_matrix = []
 for _ in range(n):
     row = list(map(int, input().split()))
     matrix.append(row)
-    
-output_matrix = [row[:] for row in matrix]
+ 
+output_matrix = copy.deepcopy(matrix) 
+
 
 def matrix_print(arr, n, m):
     for i in range(n):
