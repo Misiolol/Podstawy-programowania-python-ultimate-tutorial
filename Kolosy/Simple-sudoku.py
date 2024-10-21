@@ -7,10 +7,7 @@ for _ in range(9):
 def if_capable_rows(arr):
     capable = True
     for row in arr:
-        nums = set()
-        for digit in row:
-            nums.add(digit)
-        if len(nums) != 9:
+        if len(set(row)) != 9:
             return False
     return True
         
