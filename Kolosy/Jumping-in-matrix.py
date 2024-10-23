@@ -1,4 +1,4 @@
-#import _Functions
+import _Functions
 
 def move_to_column(arr,x,y):
     sub_arr = []
@@ -49,7 +49,7 @@ def main():
         point[0],
         point[1]
     ))
-    #? _Functions.matrix_print(matrix)
+    _Functions.matrix_print(matrix)
     return 0
 
 main()
