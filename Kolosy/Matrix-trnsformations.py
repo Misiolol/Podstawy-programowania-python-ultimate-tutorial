@@ -19,7 +19,8 @@ def reverse_column(arr, idx:int):
     sub = []
     for i in range(len(arr)):
         sub.append(arr[i][idx])
-        sub.reverse()
+    sub.reverse()
+    for i in range(len(arr)):
         arr[i][idx] = sub[i]
     return arr
 
