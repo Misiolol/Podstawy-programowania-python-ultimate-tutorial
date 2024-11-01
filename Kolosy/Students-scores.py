@@ -22,15 +22,11 @@ for _ in range(n):
         else:
             degrees.append([test, [wartosc]])
     students.append([studenci, suma_ocen/len(oceny)])
-
-
 for student in sorted([s[0] for s in students]):
     print('{} {}'.format(
         student,
         students[[s[0] for s in students].index(student)][1]
     ))
-
-
 for degree in sorted([d[0] for d in degrees]):
     values = degrees[[d[0] for d in degrees].index(degree)][1]
     print('{} {}'.format(
