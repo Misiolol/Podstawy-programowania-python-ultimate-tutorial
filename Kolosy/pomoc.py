@@ -1,11 +1,9 @@
-def quiz(a,c):
-    a = 5
-    c[0]=13
+import sys
+import re
 
-
-a = 2
-b = [3,5]
-quiz(a,b)
-print(a, " ", b)
-Q = a*b[0]
-print(Q)
+count = 0
+for line in sys.stdin:
+    for win in line.split():
+        if re.search("^[0-9]+$", win):
+            count += 1
+print(count)
