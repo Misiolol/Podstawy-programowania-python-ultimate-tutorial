@@ -1,8 +1,7 @@
 ## 🚀 Introduction to python
 
-First semester python course solved all in one place!
+First semester python course solved 
 
-## 🎯 Features
 
 ✅ Working code <br />
 ✅ Simple language
